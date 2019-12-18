@@ -1,0 +1,51 @@
+
+
+.formulario label span{
+	display:block;
+	color: #ffffff;
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding: 5px 20px 0 0;
+}
+.formulario label{
+		display: block;
+		background: #ff3300;
+		border-bottom: 1px solid #ffffff;
+		border-top: 1px solid #ffffff;
+		padding: 10px 0 10px 10px;
+		color: #ffffff;
+		/*text-align: center;*/
+}
+
+#data{
+	padding-left:40px;
+}
+.bo #botao{
+	color: #ffffff;
+	background: #ff3300;
+	border: 1px double #ffffff;
+	position: relative;
+	left: 45%;
+	top: 10px;
+	padding: 10px;
+}
+.bo{
+	height:50px;
+	background-color:#ff3300;
+
+}
+#botao:hover{
+	background-color: #FF7A21;
+}
+.msg-erro{ 
+		color: red; 
+		font-style: italic;
+}
+@media only screen and (min-width: 600px){
+	#nome, #email, #senha, #senha2 {
+		width: 400px;
+		text-align: left;
+		padding:8px;
+	}
+}
